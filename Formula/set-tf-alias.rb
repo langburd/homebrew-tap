@@ -11,8 +11,10 @@ class SetTfAlias < Formula
 
   def caveats
     <<~EOS
-      Add this line to your ~/.zshrc or ~/.bashrc:
-        source "#{opt_share}/set-tf-alias/set-tf-alias.sh"
+      Add the source line to your shell rc file:
+        echo 'source "#{opt_share}/set-tf-alias/set-tf-alias.sh"' >> ~/.zshrc
+      or:
+        echo 'source "#{opt_share}/set-tf-alias/set-tf-alias.sh"' >> ~/.bashrc
 
       Bash users need bash >= 4. Apple's default bash 3.2 is not supported.
       Install a modern bash with:
