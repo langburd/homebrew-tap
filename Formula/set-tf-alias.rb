@@ -7,6 +7,7 @@ class SetTfAlias < Formula
 
   def install
     (share/"set-tf-alias").install "set-tf-alias.sh"
+    (share/"set-tf-alias"/"version").write version.to_s
   end
 
   def caveats
