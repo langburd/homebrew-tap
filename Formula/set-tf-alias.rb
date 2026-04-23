@@ -1,8 +1,8 @@
 class SetTfAlias < Formula
   desc "Portable bash/zsh library auto-switching tf/tofu/terraform aliases"
   homepage "https://github.com/langburd/set-tf-alias"
-  url "https://github.com/langburd/set-tf-alias/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "2dd484bb5664d892cd08cb3c9b5a5ae3d6b34793b1c7bcef1af8c639e67e0de5"
+  url "https://github.com/langburd/set-tf-alias/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "3b0409f4c6f24e21f9849cfe7c04fc819432be179407aab9c6c0bcbf4f37c4bf"
   license "MIT"
 
   def install
